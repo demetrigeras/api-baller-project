@@ -1,4 +1,5 @@
-[
+{
+  "data": [
     {
       "id": 14,
       "first_name": "Ike",
@@ -449,4 +450,12 @@
       },
       "weight_pounds": null
     }
-  ]
+  ],
+  "meta": {
+    "total_pages": 206,
+    "current_page": 1,
+    "next_page": 2,
+    "per_page": 25,
+    "total_count": 5130
+  }
+}
