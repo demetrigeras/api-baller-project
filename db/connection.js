@@ -1,8 +1,10 @@
 import mongoose from "mongoose";
 import chalk from "chalk";
 
+// let connectionString = process.env.DB_URL
+
 const MONGODB_URI =
-  process.env.PROD_MONGODB || "mongodb://127.0.0.1:27017/balldontlie-api";
+process.env.DB_URL|| "mongodb://127.0.0.1:27017/balldontlie-api";
 
 // This is for Model.findByIdAndUpdate method, specifically so that {new: true} is the default
 mongoose.set("returnOriginal", false);
