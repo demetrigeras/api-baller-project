@@ -19,6 +19,5 @@ db.on("connected", () => {
   console.clear();
   console.log(chalk.blue("Connected to MongoDB!"));
 
-  
-    app.listen(PORT, () => console.log(`app listening on port ${PORT}`))
-  });
+  app.listen(PORT, () => console.log(`app listening on port ${PORT}`))
+});
